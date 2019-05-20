@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9100</color>
+    <color name="colorPrimaryDark">#ff9100</color>
+    <color name="colorAccent">#AD1A0A</color>
+    <color name="PrimaryLight">#D81B60</color>
+    <color name="deepPurple">#7c4dff</color>
+    <color name="deepYellow">#ffb300</color>
+    <color name="deepGreen">#00bfa5</color>
+    <color name="deepPink">#ff4081</color>
+</resources>

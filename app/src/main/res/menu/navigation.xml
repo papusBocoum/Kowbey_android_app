@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Accueil"/>
+
+    <item
+            android:id="@+id/kowbey"
+            android:icon="@drawable/kowbey"
+            android:title="Kowbey"/>
+
+    <item
+            android:id="@+id/moi"
+            android:icon="@drawable/moi"
+            android:title="Moi"/>
+
+</menu>

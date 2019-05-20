@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BottomApp</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_annonces">Annonces</string>
+    <string-array name="spinnerItems">
+        <item>Immobilier</item>
+        <item>Voiture</item>
+        <item>Services</item>
+        <item>Emploie</item>
+        <item>Electronique</item>
+        <item>Annonce</item>
+        <item>Transport</item>
+        <item>Diaspora</item>
+    </string-array>
+</resources>

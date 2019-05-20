@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:id="@+id/commonLayout"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:gravity="center">
+    <androidx.core.widget.NestedScrollView android:layout_width="376dp" android:layout_height="wrap_content"
+                                           app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="6dp"
+                                           app:layout_constraintStart_toStartOf="parent"
+                                           android:layout_marginStart="6dp"
+                                           android:foregroundGravity="center"
+
+
+                                           android:id="@+id/scrollView2" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                          xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:layout_width="351dp"
+                          android:layout_height="wrap_content"
+                          android:background="@drawable/dash_bord_background"
+                          app:layout_scrollFlags="scroll"
+
+                          android:clipToPadding="false"
+                          android:orientation="vertical"
+                          android:layout_marginTop="8dp"
+                          app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                          app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                          android:id="@+id/linearLayout2" app:layout_constraintTop_toTopOf="parent"
+            >
+
+
+                <LinearLayout android:layout_width="match_parent" android:layout_gravity="center"
+                              android:layout_height="85dp" android:orientation="horizontal" android:gravity="center">
+                    <!-- Premiere ligne -->
+
+                    <LinearLayout android:layout_width="80dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:id="@+id/immobilier"
+
+                                  android:orientation="vertical"
+                                  android:onClick="LaunchSecondActivity"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/ic_location_city_black_24dp" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Immobilier"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:id="@+id/voiture"
+
+                                  android:orientation="vertical"
+                                  android:onClick="LaunchSecondActivity"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/voiture" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Voiture"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:id="@+id/service"
+
+                                  android:orientation="vertical"
+                                  android:onClick="LaunchSecondActivity"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/services" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Services"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:id="@+id/emploie"
+                                  android:onClick="LaunchSecondActivity"
+
+                                  android:orientation="vertical"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/ic_school_black_24dp" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Emploie"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!-- Fin Premiere ligne -->
+
+
+                <LinearLayout android:layout_width="match_parent" android:layout_gravity="center"
+                              android:layout_height="85dp" android:orientation="horizontal" android:gravity="center">
+                    <!-- Premiere ligne -->
+
+                    <LinearLayout android:layout_width="80dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:id="@+id/electronique"
+                                  android:onClick="LaunchSecondActivity"
+
+                                  android:orientation="vertical"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/electronique24dp" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Electronique"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+
+                                  android:orientation="vertical"
+                                  android:clickable="true"
+                                  android:id="@+id/annonces"
+
+                                  android:onClick="LaunchSecondActivity"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/annonces" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Annonces"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+                                  android:onClick="LaunchSecondActivity"
+
+                                  android:orientation="vertical"
+                                  android:id="@+id/transport"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/transport" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Transport"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="70dp" android:layout_height="70dp"
+                                  android:layout_margin="5dp"
+
+                                  android:orientation="vertical"
+                                  android:id="@+id/diaspora"
+                                  android:onClick="LaunchSecondActivity"
+                    >
+                        <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                                   android:background="@drawable/circlebackgroundpurple"
+
+                                   android:src="@drawable/diaspora" android:layout_gravity="center"
+                        />
+                        <TextView android:layout_width="wrap_content" android:layout_gravity="center"
+                                  android:layout_height="wrap_content" android:text="Diaspora"
+                                  android:textAlignment="center" android:textAllCaps="false" android:textStyle="bold"
+                                  android:textSize="14sp"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:color/white"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Annonces à la une" android:layout_margin="5dp"
+                      android:textAppearance="@style/TextAppearance.AppCompat" android:textSize="30sp"
+                      android:textStyle="bold" android:textColor="@android:color/white"
+                      android:textAlignment="center" android:id="@+id/animated_text" android:textAllCaps="true"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"/>
+            <androidx.recyclerview.widget.RecyclerView
+
+
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/posts_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:layout_marginTop="8dp"
+            />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
